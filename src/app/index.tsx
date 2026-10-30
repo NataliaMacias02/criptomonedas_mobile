@@ -1,9 +1,11 @@
 import { View, Text, StyleSheet } from 'react-native';
+import Formulario from '../components/Formulario';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello World</Text>
+      <Text style={styles.text}>Cotizador de criptomonedas</Text>
+      <Formulario />
     </View>
   );
 }
